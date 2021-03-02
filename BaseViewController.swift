@@ -60,23 +60,23 @@ class BaseViewController: SegementSlideDefaultViewController {
 
     switch index {
 
-    //TOP
+    //Yahoo
     case 0:
     return Page1ViewController()
 
-    //Abema
+    //google
     case 1:
     return Page2ViewController()
 
-    //Yahoo
+    //sony
     case 2:
     return Page3ViewController()
 
-    //IT
+    //芸能
     case 3:
     return Page4ViewController()
 
-    //Buzz
+    //IT
     case 4:
     return Page5ViewController()
 
